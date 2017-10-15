@@ -10,3 +10,4 @@ Type : HTML | CSS
 
 ## Objectif
 Explorer les possibilités du CSS en reproduisant la page ci-dessous.
+![goal](docs/resultat.png)
