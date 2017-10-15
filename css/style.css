@@ -1,0 +1,76 @@
+/*le sélecteur * peut permettre d'appliquer x à TOUS les élements de la page mais est très lourd et est donc à proscrire ! On va prférer body afin que tous les enfants HERITENT de cette propriété*/
+
+body {
+  /*On indique que l'on souhaite utiliser la police Georgia mais que si elle n'est pas dispo de laisser le navigateur choisir une sans-serif*/
+  font-family: "Georgia", sans-serif;
+}
+
+/*Le 'O' du span dans le h1 doit faire 3 fois la taille du reste de h1*/
+h1 span {
+  font-size: 3em;
+}
+
+/*Applique a h1 et h2 une propriété*/
+h1, h2 {
+  /*Permet d'indiquer le "gras" de la police (normal, gras, fin, etc)*/
+  font-weight: normal;
+}
+
+h1 {
+  color: #17B773;
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+}
+
+h2 {
+  color: gray;
+}
+
+#titreCours {
+  color: DarkTurquoise;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+em {
+  text-decoration: overline;
+}
+
+strong {
+  background-color: yellow;
+}
+
+blockquote {
+  color: rgb(200, 80, 60);
+  font-family: "Monospace", serif;
+  text-align: center;
+  font-style: italic;
+}
+
+#citationEinstein {
+  /*Il s'agit ici de 2xTaille hérité du parent. Ici la taille est par défaultx2*/
+  font-size: 2em;
+}
+
+cite {
+  line-height: 350%;
+}
+
+div {
+  background-color: rgb(170, 170, 170);
+  text-align: center;
+}
+
+/*Sélecteur descendant tous les 'a' dans 'div'*/
+div a {
+  color: white;
+}
+
+/*a:hover permet de cibler 'a' en fonction de son état*/
+a:hover {
+  color: red;
+}
